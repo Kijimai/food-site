@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 22px;
+    font-family: monospace, sans-serif;
+    text-align: center;
+}
+
+.main-nav {
+    width: 100%;
+    background-color: #ec5858;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 2em;
+}
+
+ul a {
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    padding: .3em 0;
+}
+
+ul a:hover {
+    background-color: #edf285;
+}
+
+.container {
+    display: flex;
+}
